@@ -1,0 +1,221 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.safetyapp.voicetrigger"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Permissions -->
+12    <uses-feature
+12-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:5:5-7:36
+13        android:name="android.hardware.telephony"
+13-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:6:9-50
+14        android:required="false" />
+14-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:7:9-33
+15
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:9:5-71
+16-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:9:22-68
+17    <uses-permission android:name="android.permission.SEND_SMS" />
+17-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:10:5-67
+17-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:10:22-64
+18    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+18-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:11:5-70
+18-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:11:22-67
+19    <uses-permission android:name="android.permission.READ_SMS" />
+19-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:12:5-67
+19-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:12:22-64
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:13:5-79
+20-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:13:22-76
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+21-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:14:5-81
+21-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:14:22-78
+22    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+22-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:15:5-85
+22-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:15:22-82
+23
+24    <!-- Foreground Service Permissions for API 28+ -->
+25    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+25-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:18:5-77
+25-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:18:22-74
+26    <!-- Specific Foreground Service Types for API 34+ -->
+27    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+27-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:20:5-88
+27-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:20:22-85
+28    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+28-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:21:5-86
+28-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:21:22-83
+29    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+29-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:23:5-81
+29-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:23:22-78
+30    <uses-permission android:name="android.permission.WAKE_LOCK" />
+30-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:24:5-68
+30-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:24:22-65
+31    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+31-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:25:5-77
+31-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:25:22-74
+32
+33    <permission
+33-->[androidx.core:core:1.12.0] C:\Users\1009r\.gradle\caches\transforms-3\964ce5c27ad70f1159a891ef7194296f\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+34        android:name="com.safetyapp.voicetrigger.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+34-->[androidx.core:core:1.12.0] C:\Users\1009r\.gradle\caches\transforms-3\964ce5c27ad70f1159a891ef7194296f\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+35        android:protectionLevel="signature" />
+35-->[androidx.core:core:1.12.0] C:\Users\1009r\.gradle\caches\transforms-3\964ce5c27ad70f1159a891ef7194296f\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+36
+37    <uses-permission android:name="com.safetyapp.voicetrigger.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+37-->[androidx.core:core:1.12.0] C:\Users\1009r\.gradle\caches\transforms-3\964ce5c27ad70f1159a891ef7194296f\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+37-->[androidx.core:core:1.12.0] C:\Users\1009r\.gradle\caches\transforms-3\964ce5c27ad70f1159a891ef7194296f\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+38
+39    <application
+39-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:27:5-60:19
+40        android:allowBackup="true"
+40-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:28:9-35
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.12.0] C:\Users\1009r\.gradle\caches\transforms-3\964ce5c27ad70f1159a891ef7194296f\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+42        android:debuggable="true"
+43        android:extractNativeLibs="false"
+44        android:icon="@mipmap/ic_launcher"
+44-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:29:9-43
+45        android:label="@string/app_name"
+45-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:30:9-41
+46        android:roundIcon="@mipmap/ic_launcher_round"
+46-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:31:9-54
+47        android:supportsRtl="true"
+47-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:32:9-35
+48        android:theme="@style/Theme.SafetyApp"
+48-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:33:9-47
+49        android:usesCleartextTraffic="true" >
+49-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:34:9-44
+50        <activity
+50-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:36:9-44:20
+51            android:name="com.safetyapp.voicetrigger.MainActivity"
+51-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:37:13-41
+52            android:exported="true"
+52-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:38:13-36
+53            android:windowSoftInputMode="adjustResize" >
+53-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:39:13-55
+54            <intent-filter>
+54-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:40:13-43:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:41:17-69
+55-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:41:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:42:17-77
+57-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:42:27-74
+58            </intent-filter>
+59        </activity>
+60
+61        <service
+61-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:46:9-50:67
+62            android:name="com.safetyapp.voicetrigger.VoiceTriggerService"
+62-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:47:13-48
+63            android:enabled="true"
+63-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:48:13-35
+64            android:exported="false"
+64-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:49:13-37
+65            android:foregroundServiceType="microphone|location" />
+65-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:50:13-64
+66
+67        <receiver
+67-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:52:9-58:20
+68            android:name="com.safetyapp.voicetrigger.BootReceiver"
+68-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:53:13-41
+69            android:exported="true" >
+69-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:54:13-36
+70            <intent-filter>
+70-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:55:13-57:29
+71                <action android:name="android.intent.action.BOOT_COMPLETED" />
+71-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:56:17-79
+71-->C:\Users\1009r\Desktop\app\app\src\main\AndroidManifest.xml:56:25-76
+72            </intent-filter>
+73        </receiver>
+74
+75        <provider
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\1009r\.gradle\caches\transforms-3\5d484e7a489497317eb803684c697449\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+76            android:name="androidx.startup.InitializationProvider"
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\1009r\.gradle\caches\transforms-3\5d484e7a489497317eb803684c697449\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+77            android:authorities="com.safetyapp.voicetrigger.androidx-startup"
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\1009r\.gradle\caches\transforms-3\5d484e7a489497317eb803684c697449\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+78            android:exported="false" >
+78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\1009r\.gradle\caches\transforms-3\5d484e7a489497317eb803684c697449\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+79            <meta-data
+79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\1009r\.gradle\caches\transforms-3\5d484e7a489497317eb803684c697449\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+80                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\1009r\.gradle\caches\transforms-3\5d484e7a489497317eb803684c697449\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+81                android:value="androidx.startup" />
+81-->[androidx.emoji2:emoji2:1.2.0] C:\Users\1009r\.gradle\caches\transforms-3\5d484e7a489497317eb803684c697449\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+82            <meta-data
+82-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\1009r\.gradle\caches\transforms-3\e88473dc0e3a4abb5a1920085a9ffaa9\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+83                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+83-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\1009r\.gradle\caches\transforms-3\e88473dc0e3a4abb5a1920085a9ffaa9\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+84                android:value="androidx.startup" />
+84-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\1009r\.gradle\caches\transforms-3\e88473dc0e3a4abb5a1920085a9ffaa9\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+85            <meta-data
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\1009r\.gradle\caches\transforms-3\0fc4aba25c1c2f3b1fa7a8af0172dfb6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+86                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\1009r\.gradle\caches\transforms-3\0fc4aba25c1c2f3b1fa7a8af0172dfb6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+87                android:value="androidx.startup" />
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\1009r\.gradle\caches\transforms-3\0fc4aba25c1c2f3b1fa7a8af0172dfb6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+88        </provider>
+89
+90        <activity
+90-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\1009r\.gradle\caches\transforms-3\c732b13bbda0b18486c5f8c9e8215043\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+91            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+91-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\1009r\.gradle\caches\transforms-3\c732b13bbda0b18486c5f8c9e8215043\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+92            android:exported="false"
+92-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\1009r\.gradle\caches\transforms-3\c732b13bbda0b18486c5f8c9e8215043\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+93            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+93-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\1009r\.gradle\caches\transforms-3\c732b13bbda0b18486c5f8c9e8215043\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+94
+95        <meta-data
+95-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\1009r\.gradle\caches\transforms-3\80aaa78a6fd1338d9f94e905cf388b28\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+96            android:name="com.google.android.gms.version"
+96-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\1009r\.gradle\caches\transforms-3\80aaa78a6fd1338d9f94e905cf388b28\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+97            android:value="@integer/google_play_services_version" />
+97-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\1009r\.gradle\caches\transforms-3\80aaa78a6fd1338d9f94e905cf388b28\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+98
+99        <receiver
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\1009r\.gradle\caches\transforms-3\0fc4aba25c1c2f3b1fa7a8af0172dfb6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+100            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\1009r\.gradle\caches\transforms-3\0fc4aba25c1c2f3b1fa7a8af0172dfb6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+101            android:directBootAware="false"
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\1009r\.gradle\caches\transforms-3\0fc4aba25c1c2f3b1fa7a8af0172dfb6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+102            android:enabled="true"
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\1009r\.gradle\caches\transforms-3\0fc4aba25c1c2f3b1fa7a8af0172dfb6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+103            android:exported="true"
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\1009r\.gradle\caches\transforms-3\0fc4aba25c1c2f3b1fa7a8af0172dfb6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+104            android:permission="android.permission.DUMP" >
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\1009r\.gradle\caches\transforms-3\0fc4aba25c1c2f3b1fa7a8af0172dfb6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\1009r\.gradle\caches\transforms-3\0fc4aba25c1c2f3b1fa7a8af0172dfb6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+106                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\1009r\.gradle\caches\transforms-3\0fc4aba25c1c2f3b1fa7a8af0172dfb6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\1009r\.gradle\caches\transforms-3\0fc4aba25c1c2f3b1fa7a8af0172dfb6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+107            </intent-filter>
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\1009r\.gradle\caches\transforms-3\0fc4aba25c1c2f3b1fa7a8af0172dfb6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+109                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\1009r\.gradle\caches\transforms-3\0fc4aba25c1c2f3b1fa7a8af0172dfb6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\1009r\.gradle\caches\transforms-3\0fc4aba25c1c2f3b1fa7a8af0172dfb6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+110            </intent-filter>
+111            <intent-filter>
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\1009r\.gradle\caches\transforms-3\0fc4aba25c1c2f3b1fa7a8af0172dfb6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+112                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\1009r\.gradle\caches\transforms-3\0fc4aba25c1c2f3b1fa7a8af0172dfb6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\1009r\.gradle\caches\transforms-3\0fc4aba25c1c2f3b1fa7a8af0172dfb6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+113            </intent-filter>
+114            <intent-filter>
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\1009r\.gradle\caches\transforms-3\0fc4aba25c1c2f3b1fa7a8af0172dfb6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+115                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\1009r\.gradle\caches\transforms-3\0fc4aba25c1c2f3b1fa7a8af0172dfb6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\1009r\.gradle\caches\transforms-3\0fc4aba25c1c2f3b1fa7a8af0172dfb6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+116            </intent-filter>
+117        </receiver>
+118    </application>
+119
+120</manifest>

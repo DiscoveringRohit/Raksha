@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Raksha</string>
+    <string name="app_description">Voice Trigger Women Safety</string>
+    <string name="sos_sent">🚨 SOS Alert Sent!</string>
+    <string name="listening">🎤 Listening...</string>
+    <string name="service_stopped">🔴 Service stopped</string>
+    <string name="notification_channel_name">Safety Monitor</string>
+    <string name="notification_title">🛡️ Safety Monitor Active</string>
+</resources>

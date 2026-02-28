@@ -1,0 +1,3 @@
+com.safetyapp.voicetrigger.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

@@ -1,0 +1,6 @@
+com.safetyapp.voicetrigger.test.app-annotation-experimental-1.3.0-0 C:\Users\1009r\.gradle\caches\transforms-3\66ce9016ba5bfe9bd12181646aa59beb\transformed\annotation-experimental-1.3.0\res
+com.safetyapp.voicetrigger.test.app-core-1.5.0-1 C:\Users\1009r\.gradle\caches\transforms-3\969257dcf7950c74f2f78a6cf0d972c0\transformed\core-1.5.0\res
+com.safetyapp.voicetrigger.test.app-androidTest-2 C:\Users\1009r\Desktop\app\app\build\generated\res\resValues\androidTest\debug
+com.safetyapp.voicetrigger.test.app-mergeDebugAndroidTestResources-3 C:\Users\1009r\Desktop\app\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.safetyapp.voicetrigger.test.app-mergeDebugAndroidTestResources-4 C:\Users\1009r\Desktop\app\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.safetyapp.voicetrigger.test.app-merged_res-5 C:\Users\1009r\Desktop\app\app\build\intermediates\merged_res\debugAndroidTest

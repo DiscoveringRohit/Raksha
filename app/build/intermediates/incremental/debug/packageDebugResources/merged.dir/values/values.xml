@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#FF5252</color>
+    <color name="background">#0D0D1A</color>
+    <color name="card_border">#2A2A4A</color>
+    <color name="green">#00C853</color>
+    <color name="green_10">#1A00C853</color>
+    <color name="green_dark">#00701C</color>
+    <color name="notification_bg">#B71C1C</color>
+    <color name="orange">#FF6D00</color>
+    <color name="primary">#E53935</color>
+    <color name="primary_dark">#B71C1C</color>
+    <color name="primary_light">#FF8A80</color>
+    <color name="red">#E53935</color>
+    <color name="red_10">#1AE53935</color>
+    <color name="red_30">#4DE53935</color>
+    <color name="red_glow">#FF1744</color>
+    <color name="surface">#1A1A2E</color>
+    <color name="surface_variant">#1E1E35</color>
+    <color name="text_primary">#F0F0FF</color>
+    <color name="text_secondary">#8888AA</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_description">Voice Trigger Women Safety</string>
+    <string name="app_name">Raksha</string>
+    <string name="listening">🎤 Listening...</string>
+    <string name="notification_channel_name">Safety Monitor</string>
+    <string name="notification_title">🛡️ Safety Monitor Active</string>
+    <string name="service_stopped">🔴 Service stopped</string>
+    <string name="sos_sent">🚨 SOS Alert Sent!</string>
+    <style name="Theme.SafetyApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/primary_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        
+        <item name="colorControlNormal">@color/card_border</item>
+        <item name="colorControlActivated">@color/primary</item>
+        <item name="colorControlHighlight">@color/red_30</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+    </style>
+</resources>
