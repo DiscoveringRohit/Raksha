@@ -21,7 +21,7 @@ import com.safetyapp.voicetrigger.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMainBinding
+    private latei  nit var binding: ActivityMainBinding
     private lateinit var prefsHelper: PreferencesHelper
     private lateinit var contactsAdapter: ContactsAdapter
 
